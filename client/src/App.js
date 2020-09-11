@@ -1,19 +1,6 @@
 import React from "react";
 import PostCreate from "./PostCreate";
-
-export default () => {
-  return (
-    <div className="container">
-      <h1>Create Post</h1>
-      <PostCreate />
-    </div>
-  );
-};
-
-/* 
-import React from 'react';
-import PostCreate from './PostCreate';
-import PostList from './PostList';
+import PostList from "./PostList";
 
 export default () => {
   return (
@@ -26,5 +13,3 @@ export default () => {
     </div>
   );
 };
-
-*/
